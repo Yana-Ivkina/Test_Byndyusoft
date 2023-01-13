@@ -20,7 +20,7 @@ public class TestCorrectPhoneNumberAndMailbox {
     @Test
     public void checkMailInOrderPresentationButton() {
         driver.get("https://www.google.com");
-        PageObjects element = new PageObjects(driver);
+        MainPageByndyusoft element = new MainPageByndyusoft(driver);
         element.writeWorldInSearchGoogle("Byndyusoft");
         element.clickOnFirstLinks();
         element.scrollToYellowButton();
