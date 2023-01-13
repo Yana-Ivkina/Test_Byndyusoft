@@ -4,11 +4,11 @@ import org.openqa.selenium.*;
 
 import java.util.List;
 
-public class PageObjects {
+public class MainPageByndyusoft {
 
     private final WebDriver driver;
 
-    public PageObjects(WebDriver driver) {
+    public MainPageByndyusoft(WebDriver driver) {
         this.driver = driver;
     }
 
